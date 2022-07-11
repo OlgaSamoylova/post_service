@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+    <changeSet id="3" author="Ruslan">
+        <addColumn tableName="post">
+            <column name="is_delete" type="boolean"/>
+        </addColumn>
+<!--        <update tableName="post">-->
+<!--            <column name="is_delete" value= "false"/>-->
+<!--            <where> id = '1'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post">-->
+<!--            <column name="is_delete" value="false"/>-->
+<!--            <where> id = '2'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post">-->
+<!--            <column name="is_delete" value="false"/>-->
+<!--            <where> id = '3'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post">-->
+<!--            <column name="is_delete" value="false"/>-->
+<!--            <where> id = '4'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post">-->
+<!--            <column name="is_delete" value="false"/>-->
+<!--            <where> id = '5'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post">-->
+<!--            <column name="is_delete" value="false"/>-->
+<!--            <where> id = '6'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post">-->
+<!--            <column name="is_delete" value="false"/>-->
+<!--            <where> id = '7'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post">-->
+<!--            <column name="is_delete" value="false"/>-->
+<!--            <where> id = '8'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post">-->
+<!--            <column name="is_delete" value="false"/>-->
+<!--            <where> id = '9'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post">-->
+<!--            <column name="is_delete" value="false"/>-->
+<!--            <where> id = '10'</where>-->
+<!--        </update>-->
+    </changeSet>
+</databaseChangeLog>

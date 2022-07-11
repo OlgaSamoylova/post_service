@@ -1,0 +1,5 @@
+# Project exclude paths
+/api/target/
+/db/target/
+/domain/target/
+/impl/target/

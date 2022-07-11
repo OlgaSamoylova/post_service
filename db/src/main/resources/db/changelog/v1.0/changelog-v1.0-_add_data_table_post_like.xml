@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="6" author="Olga">
+        <insert tableName="post_like">
+            <column name="time" value="1612416893"/>
+            <column name="author_id" value="1"/>
+            <column name="item_id" value="3"/>
+            <column name="type" value="COMMENT"/>
+        </insert>
+        <insert tableName="post_like">
+            <column name="time" value="1612416893"/>
+            <column name="author_id" value="1"/>
+            <column name="item_id" value="5"/>
+            <column name="type" value="POST"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

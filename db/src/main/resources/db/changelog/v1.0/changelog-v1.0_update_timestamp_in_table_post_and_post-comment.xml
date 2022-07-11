@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+    <changeSet id="10" author="Ruslan">
+        <update tableName="post">
+            <column name="time" value="1612416893"/>
+            <where>id = '1'</where>
+        </update>
+        <update tableName="post">
+            <column name="time" value="1621523500"/>
+            <where>id = '2'</where>
+        </update>
+        <update tableName="post">
+            <column name="time" value="1623542400"/>
+            <where>id = '3'</where>
+        </update>
+        <update tableName="post">
+            <column name="time" value="1618704000"/>
+            <where>id = '4'</where>
+        </update>
+        <update tableName="post">
+            <column name="time" value="1621555200"/>
+            <where>id = '5'</where>
+        </update>
+        <update tableName="post">
+            <column name="time" value="1634947200"/>
+            <where>id = '6'</where>
+        </update>
+        <update tableName="post">
+            <column name="time" value="1637193600"/>
+            <where>id = '7'</where>
+        </update>
+        <update tableName="post">
+            <column name="time" value="1643587200"/>
+            <where>id = '8'</where>
+        </update>
+        <update tableName="post">
+            <column name="time" value="1645401600"/>
+            <where>id = '9'</where>
+        </update>
+        <update tableName="post">
+            <column name="time" value="1614643200"/>
+            <where>id = '10'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1614470400"/>
+            <where>id = '1'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1623628800"/>
+            <where>id = '2'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1614988800"/>
+            <where>id = '3'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1614729600"/>
+            <where>id = '4'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1640995200"/>
+            <where>id = '5'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1624579200"/>
+            <where>id = '6'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1643414400"/>
+            <where>id = '7'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1639958400"/>
+            <where>id = '8'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1640390400"/>
+            <where>id = '9'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1622246400"/>
+            <where>id = '10'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1641945600"/>
+            <where>id = '11'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1639267200"/>
+            <where>id = '12'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1614211200"/>
+            <where>id = '13'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1641081600"/>
+            <where>id = '14'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1621296000"/>
+            <where>id = '15'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1626048000"/>
+            <where>id = '16'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1636243200"/>
+            <where>id = '17'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1617062400"/>
+            <where>id = '18'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1643760000"/>
+            <where>id = '19'</where>
+        </update>
+        <update tableName="post_comment">
+            <column name="time" value="1615680000"/>
+            <where>id = '20'</where>
+        </update>
+    </changeSet>
+</databaseChangeLog>

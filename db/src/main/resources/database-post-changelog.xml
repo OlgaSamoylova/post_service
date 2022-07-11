@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <property name="schema" value="post"/>
+
+    <changeSet id="0" author="Ruslan">
+        <tagDatabase tag="db_init"/>
+    </changeSet>
+
+    <include file="db/changelog/v1.0/changelog-v1.0-cumulative.xml" relativeToChangelogFile="true"/>
+
+<!--    <include file="db/changelog/v1.0/changelog-v1.0-add-data-tables-post-and-comment.xml" relativeToChangelogFile="true"/>-->
+
+    <include file="db/changelog/v1.0/changelog-v1.0-add_new_column_is_delete.xml" relativeToChangelogFile="true"/>
+
+    <include file="db/changelog/v1.0/changelog-v1.0-_comment_add_new_column_is_delete.xml" relativeToChangelogFile="true"/>
+
+    <include file="db/changelog/v1.0/changelog-v1.0-_add_new_table_post_like.xml" relativeToChangelogFile="true"/>
+
+<!--    <include file="db/changelog/v1.0/changelog-v1.0-_add_data_table_post_like.xml" relativeToChangelogFile="true"/>-->
+
+    <include file="db/changelog/v1.0/changelog-v1.0-_add_new_table_tag.xml" relativeToChangelogFile="true"/>
+
+<!--    <include file="db/changelog/v1.0/changelog-v1.0-_add_data_table_tag.xml" relativeToChangelogFile="true"/>-->
+
+    <include file="db/changelog/v1.0/changelog-v1.0-_add_new_column_like_amount.xml" relativeToChangelogFile="true"/>
+
+<!--    <include file="db/changelog/v1.0/changelog-v1.0_update_timestamp_in_table_post_and_post-comment.xml" relativeToChangelogFile="true"/>-->
+    <include file="db/changelog/v1.0/changelog-v1.0-_add_new_column_my_Like.xml" relativeToChangelogFile="true"/>
+    <include file="db/changelog/v1.0/changelog-v1.0-_add_new_column_imagePath.xml" relativeToChangelogFile="true"/>
+</databaseChangeLog>

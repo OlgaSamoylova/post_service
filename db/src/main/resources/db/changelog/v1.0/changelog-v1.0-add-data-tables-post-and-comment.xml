@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+    <changeSet id="2" author="Ruslan">
+        <insert tableName="post">
+            <column name="time" value="1612416893000"/>
+            <column name="author_id" value="2"/>
+            <column name="title" value="Unspecified atherosclerosis of autologous vein bypass graft(s) of the extremities,
+        unspecified extremity"/>
+            <column name="post_text" value="Complete traumatic metacarpophalangeal amputation of left index finger"/>
+            <column name="is_blocked" value="false"/>
+        </insert>
+        <insert tableName="post">
+            <column name="time" value="1621523500050"/>
+            <column name="author_id" value="3"/>
+            <column name="title" value="Fracture of unspecified part of neck of left femur, initial encounter for closed fracture"/>
+            <column name="post_text" value="Other fracture of right lesser toe(s), subsequent encounter for fracture with delayed healing"/>
+            <column name="is_blocked" value="true"/>
+        </insert>
+        <insert tableName="post">
+            <column name="time" value="1623542400000"/>
+            <column name="author_id" value="4"/>
+            <column name="title" value="Polyosteoarthritis, unspecified"/>
+            <column name="post_text" value="Burn of unspecified degree of upper back, initial encounter"/>
+            <column name="is_blocked" value="false"/>
+        </insert>
+        <insert tableName="post">
+            <column name="time" value="1618704000000"/>
+            <column name="author_id" value="5"/>
+            <column name="title" value="Salter-Harris Type I physeal fracture of lower end of radius, left arm, subsequent encounter for fracture with nonunion"/>
+            <column name="post_text" value="Melanocytic nevi of right ear and external auricular canal"/>
+            <column name="is_blocked" value="false"/>
+        </insert>
+        <insert tableName="post">
+            <column name="time" value="1621555200000"/>
+            <column name="author_id" value="2"/>
+            <column name="title" value="Crystalline deposits in vitreous body"/>
+            <column name="post_text" value="Laceration with foreign body of unspecified finger with damage to nail, initial encounter"/>
+            <column name="is_blocked" value="false"/>
+        </insert>
+        <insert tableName="post">
+            <column name="time" value="1634947200000"/>
+            <column name="author_id" value="5"/>
+            <column name="title" value="Bitten by pig, subsequent encounter"/>
+            <column name="post_text" value="Toxic effect of chlorofluorocarbons, assault"/>
+            <column name="is_blocked" value="true"/>
+        </insert>
+        <insert tableName="post">
+            <column name="time" value="1637193600000"/>
+            <column name="author_id" value="3"/>
+            <column name="title" value="Pathological fracture in neoplastic disease, left tibia,
+        subsequent encounter for fracture with routine healing"/>
+            <column name="post_text" value="Nondisplaced fracture of middle third of navicular [scaphoid] bone of right wrist,
+        subsequent encounter for fracture with nonunion"/>
+            <column name="is_blocked" value="false"/>
+        </insert>
+        <insert tableName="post">
+            <column name="time" value="1643587200000"/>
+            <column name="author_id" value="1"/>
+            <column name="title" value="Displaced oblique fracture of shaft of right fibula,
+        subsequent encounter for open fracture type IIIA, IIIB, or IIIC with routine healing"/>
+            <column name="post_text" value="Insect bite (nonvenomous) of unspecified front wall of thorax"/>
+            <column name="is_blocked" value="false"/>
+        </insert>
+        <insert tableName="post">
+            <column name="time" value="1645401600000"/>
+            <column name="author_id" value="3"/>
+            <column name="title" value="Unspecified trochanteric fracture of unspecified femur,
+        subsequent encounter for open fracture type IIIA, IIIB, or IIIC with delayed healing"/>
+            <column name="post_text" value="Other war operations occurring after cessation of hostilities, military personnel, initial encounter"/>
+            <column name="is_blocked" value="false"/>
+        </insert>
+        <insert tableName="post">
+            <column name="time" value="1614643200000"/>
+            <column name="author_id" value="4"/>
+            <column name="title" value="War operations involving other firearms discharge, civilian, initial encounter"/>
+            <column name="post_text" value="Passenger in three-wheeled motor vehicle injured in collision with heavy transport vehicle or bus in nontraffic accident"/>
+            <column name="is_blocked" value="false"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1614470400000"/>
+            <column name="parent_id" value="null"/>
+            <column name="comment_text" value="Laceration of muscle, fascia and tendon of left hip, subsequent encounter"/>
+            <column name="post_id" value="5"/>
+            <column name="author_id" value="5"/>
+            <column name="is_blocked" value="false"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1623628800000"/>
+            <column name="parent_id" value="null"/>
+            <column name="comment_text" value="Plica syndrome"/>
+            <column name="post_id" value="2"/>
+            <column name="author_id" value="4"/>
+            <column name="is_blocked" value="true"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1614988800000"/>
+            <column name="parent_id" value="3"/>
+            <column name="comment_text" value="Exposure to reduction in atmospheric pressure while surfacing from deep-water diving,
+        subsequent encounter"/>
+            <column name="post_id" value="3"/>
+            <column name="author_id" value="2"/>
+            <column name="is_blocked" value="false"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1614729600000"/>
+            <column name="parent_id" value="4"/>
+            <column name="comment_text" value="Nondisplaced fracture of pisiform, left wrist,
+        subsequent encounter for fracture with routine healing"/>
+            <column name="post_id" value="3"/>
+            <column name="author_id" value="4"/>
+            <column name="is_blocked" value="true"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1640995200000"/>
+            <column name="parent_id" value="4"/>
+            <column name="comment_text" value="Laceration of plantar artery of left foot, sequela"/>
+            <column name="post_id" value="1"/>
+            <column name="author_id" value="2"/>
+            <column name="is_blocked" value="false"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1624579200000"/>
+            <column name="parent_id" value="4"/>
+            <column name="comment_text" value="Unspecified fracture of third thoracic vertebra"/>
+            <column name="post_id" value="4"/>
+            <column name="author_id" value="3"/>
+            <column name="is_blocked" value="true"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1643414400000"/>
+            <column name="parent_id" value="null"/>
+            <column name="comment_text" value="Nondisplaced fracture of third metatarsal bone, right foot,
+        subsequent encounter for fracture with nonunion"/>
+            <column name="post_id" value="3"/>
+            <column name="author_id" value="3"/>
+            <column name="is_blocked" value="true"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1639958400000"/>
+            <column name="parent_id" value="5"/>
+            <column name="comment_text" value="Nondisplaced unspecified fracture of right great toe, initial encounter for open fracture"/>
+            <column name="post_id" value="1"/>
+            <column name="author_id" value="1"/>
+            <column name="is_blocked" value="false"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1640390400000"/>
+            <column name="parent_id" value="2"/>
+            <column name="comment_text" value="Osseous and subluxation stenosis of intervertebral foramina of lumbar region"/>
+            <column name="post_id" value="4"/>
+            <column name="author_id" value="2"/>
+            <column name="is_blocked" value="true"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1622246400000"/>
+            <column name="parent_id" value="3"/>
+            <column name="comment_text" value="Adverse effect of other laxatives, sequela"/>
+            <column name="post_id" value="4"/>
+            <column name="author_id" value="3"/>
+            <column name="is_blocked" value="false"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1641945600000"/>
+            <column name="parent_id" value="null"/>
+            <column name="comment_text" value="Abnormal findings on cytological and histological examination of urine"/>
+            <column name="post_id" value="3"/>
+            <column name="author_id" value="3"/>
+            <column name="is_blocked" value="true"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1639267200000"/>
+            <column name="parent_id" value="3"/>
+            <column name="comment_text" value="Laceration with foreign body of abdominal wall,
+        unspecified quadrant with penetration into peritoneal cavity, initial encounter"/>
+            <column name="post_id" value="1"/>
+            <column name="author_id" value="4"/>
+            <column name="is_blocked" value="true"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1614211200000"/>
+            <column name="parent_id" value="null"/>
+            <column name="comment_text" value="Displaced fracture of olecranon process with intraarticular extension of left ulna,
+        subsequent encounter for open fracture type I or II with delayed healing"/>
+            <column name="post_id" value="3"/>
+            <column name="author_id" value="5"/>
+            <column name="is_blocked" value="true"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1641081600000"/>
+            <column name="parent_id" value="3"/>
+            <column name="comment_text" value="Unspecified retained (old) intraocular foreign body, magnetic, left eye"/>
+            <column name="post_id" value="3"/>
+            <column name="author_id" value="3"/>
+            <column name="is_blocked" value="true"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1621296000000"/>
+            <column name="parent_id" value="3"/>
+            <column name="comment_text" value="Displaced spiral fracture of shaft of left femur,
+        subsequent encounter for open fracture type I or II with nonunion"/>
+            <column name="post_id" value="3"/>
+            <column name="author_id" value="5"/>
+            <column name="is_blocked" value="false"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1626048000000"/>
+            <column name="parent_id" value="null"/>
+            <column name="comment_text" value="Laceration with foreign body of lip, initial encounter"/>
+            <column name="post_id" value="5"/>
+            <column name="author_id" value="3"/>
+            <column name="is_blocked" value="false"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1636243200000"/>
+            <column name="parent_id" value="2"/>
+            <column name="comment_text" value="Assault by pushing or placing victim in front of (subway) train"/>
+            <column name="post_id" value="1"/>
+            <column name="author_id" value="2"/>
+            <column name="is_blocked" value="true"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1617062400000"/>
+            <column name="parent_id" value="null"/>
+            <column name="comment_text" value="Pain in knee"/>
+            <column name="post_id" value="5"/>
+            <column name="author_id" value="4"/>
+            <column name="is_blocked" value="false"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1643760000000"/>
+            <column name="parent_id" value="2"/>
+            <column name="comment_text" value="Drowning and submersion due to being thrown overboard by motion of (nonpowered) inflatable craft"/>
+            <column name="post_id" value="2"/>
+            <column name="author_id" value="1"/>
+            <column name="is_blocked" value="false"/>
+        </insert>
+        <insert tableName="post_comment">
+            <column name="time" value="1615680000000"/>
+            <column name="parent_id" value="5"/>
+            <column name="comment_text" value="Other mechanical complication of internal fixation device of bones of hand and fingers,
+        subsequent encounter"/>
+            <column name="post_id" value="1"/>
+            <column name="author_id" value="1"/>
+            <column name="is_blocked" value="true"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

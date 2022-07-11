@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>ru.skillbox.diplom-alpha</groupId>
+    <artifactId>microservice-post</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <groupId>ru.skillbox.diplom-alpha</groupId>
+  <artifactId>microservice-post-db</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <name>SKILLBOX :: DIPLOM :: microservice post :: db</name>
+  <description>microservice post db</description>
+  <dependencies>
+    <dependency>
+      <groupId>org.liquibase</groupId>
+      <artifactId>liquibase-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.wooddog.mavenplugins</groupId>
+      <artifactId>post</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <profiles>
+    <profile>
+      <id>liquibase</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.liquibase</groupId>
+            <artifactId>liquibase-maven-plugin</artifactId>
+          </plugin>
+        </plugins>
+      </build>
+      <properties>
+        <liquibase.changeLogFile>src/main/resources/database-post-changelog.xml</liquibase.changeLogFile>
+      </properties>
+    </profile>
+  </profiles>
+</project>

@@ -1,0 +1,29 @@
+spring:
+  port: 8080
+  boot:
+    admin:
+      client:
+        enabled: false
+  cloud:
+    kubernetes:
+      config:
+        enabled: false
+      reload:
+        monitoring-config-maps: false
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL10Dialect
+        format_sql: true
+        default_schema: post
+    open-in-view: false
+
+
+  liquibase:
+    enabled: true
+    drop-first: true
+    default-schema: post

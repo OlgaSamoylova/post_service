@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+    <changeSet id="9" author="Olga Samoylova">
+        <addColumn tableName="post_comment">
+            <column name="like_amount" type="int"/>
+        </addColumn>
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "1"/>-->
+<!--            <where> id = '3'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '1'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '2'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '4'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '5'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '6'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '7'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '8'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '9'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '10'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '11'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '12'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '14'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '15'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '16'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '17'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '18'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '19'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '18'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '13'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post_comment">-->
+<!--        <column name="like_amount" value= "0"/>-->
+<!--        <where> id = '20'</where>-->
+<!--        </update>-->
+        <addColumn tableName="post">
+            <column name="like_amount" type="int"/>
+        </addColumn>
+<!--        <update tableName="post">-->
+<!--            <column name="like_amount" value= "1"/>-->
+<!--            <where> id = '5'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '1'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '2'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '3'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '4'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '6'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '7'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '8'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '9'</where>-->
+<!--        </update>-->
+<!--        <update tableName="post">-->
+<!--            <column name="like_amount" value= "0"/>-->
+<!--            <where> id = '10'</where>-->
+<!--        </update>-->
+    </changeSet>
+</databaseChangeLog>
